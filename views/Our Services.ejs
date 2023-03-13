@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .btns {
+        display: flex;
+        gap: 50px;
+        justify-content: space-around;
+      }
+      .Container {
+        background: #f86161;
+        width: 100vw;
+        height: 7vh;
+        margin-top: -8px;
+        margin-left: -8px;
+      }
+      button {
+        color: white;
+        border: none;
+        background: #f86161;
+        color: #ffffff;
+        width: 15vw;
+        height: 7vh;
+        font-size: 20px;
+        transition: 0.3s;
+        font-family: cursive;
+      }
+      button:hover {
+        background: white;
+        color: #16569f;
+        transition: 0.3s;
+      }
+      img {
+        width: 100%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="position: fixed">
+      <div class="Container">
+        <div class="btns">
+          <button onclick="window.location.href='http://localhost:3000/'">
+            Home
+          </button>
+          <button
+            onclick="window.location.href='http://localhost:3000/ourservices/'"
+          >
+            Our Services
+          </button>
+          <button
+            onclick="window.location.href='http://localhost:3000/contactus/'"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <img
+        style="margin-top: -5%"
+        src="https://i.ibb.co/52qn9m2/Services.jpg"
+        alt="0"
+      />
+    </main>
+  </body>
+</html>
